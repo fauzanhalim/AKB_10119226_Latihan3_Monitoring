@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/dimen15"
+    android:layout_marginEnd="@dimen/dimen15"
+    android:background="@drawable/bg_white_dialog_rounded"
+    android:paddingStart="@dimen/dimen12"
+    android:paddingTop="@dimen/dimen12"
+    android:paddingEnd="@dimen/dimen12"
+>
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imgWarningDialogInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtWarningDialogTitle"
+        android:layout_alignBottom="@+id/txtWarningDialogTitle"
+        android:layout_marginTop="@dimen/dimen6"
+        android:contentDescription="@string/check_code_warning_empty_title"
+        android:src="@drawable/ic_info"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txtWarningDialogTitle"
+        style="@style/TextBlack87NunitoBold18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen6"
+        android:layout_marginTop="@dimen/dimen6"
+        android:layout_toEndOf="@+id/imgWarningDialogInfo"
+        android:text="@string/check_code_warning_empty_title" />
+
+    <TextView
+        android:id="@+id/txtWarningDialogDesc"
+        style="@style/TextBlack87RubikRegular12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtWarningDialogTitle"
+        android:layout_marginTop="@dimen/dimen6"
+        android:text="@string/check_code_warning_empty_desc" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWarningDialogOk"
+        style="@style/ButtonYellowRounded18RubikMedium14Black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen36"
+        android:layout_below="@+id/txtWarningDialogDesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/dimen20"
+        android:layout_marginTop="@dimen/dimen20"
+        android:layout_marginEnd="@dimen/dimen20"
+        android:layout_marginBottom="@dimen/dimen26"
+        android:text="@string/activation_oke"
+        android:textAllCaps="false" />
+</RelativeLayout>

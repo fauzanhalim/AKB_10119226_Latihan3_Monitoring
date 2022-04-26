@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ButtonYellowRounded18RubikMedium14Black" parent="Widget.AppCompat.Button">
+        <item name="fontFamily">@font/rubik_medium</item>
+        <item name="android:background">@drawable/bg_button_gradient_yellow_rounded18</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonBlueRounded18RubikMedium14White" parent="Widget.AppCompat.Button">
+    <item name="fontFamily">@font/rubik_medium</item>
+    <item name="android:background">@drawable/bg_button_gradient_blue_rounded18</item>
+    <item name="android:textColor">@color/colorWhite</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textAllCaps">false</item>
+</style>
+
+    <style name="EdtRubikRegular" parent="Widget.AppCompat.EditText">
+        <item name="fontFamily">font/Rubik-Regular.ttf</item>
+    </style>
+
+
+    <style name="EditWhiteBorderYellowRubikRegular14Gunmetal" parent="Widget.AppCompat.EditText">
+
+        <item name="android:background">@drawable/bg_edit_white_border_black_rounded25</item>
+        <item name="android:textColorHint">@color/colorCoolGrey</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/dimen14</item>
+    </style>
+
+    <style name="EdtWhiteFour15" parent="EdtRubikRegular">
+        <item name="fontFamily">font/Nunito-Bold.ttf</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:textColorHint">@color/colorWhiteFour</item>
+        <item name="android:textColor">@color/colorGunmetal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/dimen15</item>
+    </style>
+    <style name="NunitoBold" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">font/Nunito-Bold.ttf</item>
+    </style>
+
+    <style name="RubikRegular" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">font/Rubik-Regular.ttf</item>
+    </style>
+
+    <style name="TextGunmetalNunitoBold24" parent="NunitoBold">
+        <item name="android:textColor">@color/colorGunmetal</item>
+        <item name="android:textSize">@dimen/font24</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextNunitoBold24Black87" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">@dimen/font24</item>
+    </style>
+
+    <style name="TextBlack87NunitoBold18" parent="NunitoBold">
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">@dimen/font18</item>
+    </style>
+
+    <style name="TextBlack87RubikRegular12" parent="RubikRegular">
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">@dimen/font12</item>
+    </style>
+
+    <style name="TextRubikRegular15Black87" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">@dimen/font15</item>
+    </style>
+
+    <style name="TextRubikRegular12Black87" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">@dimen/font12</item>
+    </style>
+
+    <style name="TextRubikMedium24Black87" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/rubik_medium</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">@dimen/font24</item>
+    </style>
+
+</resources>

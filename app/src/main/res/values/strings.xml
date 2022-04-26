@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">10119217Latihan3</string>
+    <string name="walkthrough_text">Monitory membantu Anda mengontrol HP Anak</string>
+    <string name="walkthrough_button_start">Mulai</string>
+
+    <string name="check_code_text_title">Kode Keluarga</string>
+    <string name="check_code_text_sub">Ketikkan Kode Keluarga yang Ayah Bunda miliki disini</string>
+    <string name="check_code_edit_hint_voucher">Tuliskan Kode Keluarga disini</string>
+    <string name="check_code_button_get_started">Masuk</string>
+    <string name="check_code_text_agreement">Dengan menekan tombol di bawah ini berarti Anda menyetujui &lt;b>Ketentuan Pengguna&lt;/b> dan &lt;b>Kebijakan Data&lt;/b> kami</string>
+    <string name="check_code_text_buy">Belum punya kode keluarga?</string>
+    <string name="check_code_button_buy">Beli Kode Keluarga Disini</string>
+
+    <string name="biodata_name">Nama Panggilan Kamu</string>
+    <string name="biodata_hint_name_holder">Contoh : Budi</string>
+    <string name="biodata_age">Umur Kamu</string>
+    <string name="biodata_age_holder">Contoh : 12</string>
+    <string name="next">Selanjutnya</string>
+
+    <string name="activation_beres">Beres! Sekarang</string>
+    <string name="activation_sudah_bisa"> udah bisa ngecek penggunaan HP</string>
+    <string name="activation_setiap"> setiap hari, biar bantu ngingetin</string>
+    <string name="activation_buat">buat ngatur waktu :)</string>
+    <string name="activation_oke">Oke</string>
+
+    <string name="warning_title">Peringatan</string>
+    <string name="check_code_warning_empty_title">Kode Keluarga Kosong :(</string>
+    <string name="check_code_warning_empty_desc">Ups, Ayah Bunda belum memasukkan Kode Keluarganya ya</string>
+    <string name="check_code_warning_empty_title_name">Nama nya masih kosong :(</string>
+    <string name="check_code_warning_empty_desc_name">Ups, Kamu belum memasukkan nama ya</string>
+
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amen</string>
+</resources>

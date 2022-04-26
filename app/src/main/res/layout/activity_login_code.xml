@@ -1,0 +1,104 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBackground"
+    tools:mContext=".LoginCodeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            style="@style/TextNunitoBold24Black87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen26"
+            android:layout_marginTop="@dimen/dimen54"
+            android:layout_marginRight="@dimen/dimen26"
+            android:text="@string/check_code_text_title" />
+
+        <TextView
+            style="@style/TextRubikRegular15Black87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen26"
+            android:layout_marginTop="@dimen/dimen8"
+            android:layout_marginRight="@dimen/dimen26"
+            android:text="@string/check_code_text_sub" />
+
+        <EditText
+            android:id="@+id/edtInputCode"
+            style="@style/EditWhiteBorderYellowRubikRegular14Gunmetal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen50"
+            android:layout_marginLeft="@dimen/dimen26"
+            android:layout_marginTop="@dimen/dimen34"
+            android:layout_marginRight="@dimen/dimen26"
+            android:gravity="center"
+            android:hint="@string/check_code_edit_hint_voucher"
+            android:inputType="textCapCharacters"
+            android:textAllCaps="true"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/txtCheckCodeAgree"
+            style="@style/TextRubikRegular12Black87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen26"
+            android:layout_marginTop="@dimen/dimen22"
+            android:layout_marginEnd="@dimen/dimen26"
+            android:gravity="center"
+            android:paddingStart="@dimen/dimen12"
+            android:paddingEnd="@dimen/dimen12"
+            android:text="@string/check_code_text_agreement" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCheckCode"
+            style="@style/ButtonYellowRounded18RubikMedium14Black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen36"
+            android:layout_marginLeft="@dimen/dimen26"
+            android:layout_marginTop="@dimen/dimen12"
+            android:layout_marginRight="@dimen/dimen26"
+            android:layout_marginBottom="@dimen/dimen24"
+            android:text="@string/check_code_button_get_started"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_lin_border_white"
+        android:elevation="@dimen/dimen8"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            style="@style/TextRubikRegular15Black87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen26"
+            android:layout_marginTop="@dimen/dimen34"
+            android:layout_marginEnd="@dimen/dimen26"
+            android:layout_marginBottom="@dimen/dimen16"
+            android:gravity="center"
+            android:text="@string/check_code_text_buy" />
+
+        <Button
+            android:id="@+id/btnBuyCode"
+            style="@style/ButtonBlueRounded18RubikMedium14White"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen36"
+            android:layout_marginStart="@dimen/dimen26"
+            android:layout_marginTop="@dimen/dimen8"
+            android:layout_marginEnd="@dimen/dimen26"
+            android:layout_marginBottom="@dimen/dimen34"
+            android:text="@string/check_code_button_buy"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
